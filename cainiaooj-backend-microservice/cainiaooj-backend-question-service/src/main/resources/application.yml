@@ -35,7 +35,7 @@ spring:
     host: localhost
     port: 5672
     password: guest
-    username: guest
+    username:
   #password: 123456
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释

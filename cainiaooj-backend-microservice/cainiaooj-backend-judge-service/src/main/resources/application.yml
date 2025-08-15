@@ -36,7 +36,7 @@ spring:
     host: localhost
     port: 5672
     password: guest
-    username: guest
+    username:
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
 #  elasticsearch:
@@ -108,6 +108,6 @@ CodeSandbox:
   type: thirdParty
 Judge0API:
   judge0ApiUrl: https://judge0-ce.p.rapidapi.com/submissions
-  rapidApiKey: "9394b69563mshea2505d6da7a1fdp1d2220jsnc56a605ef509"
+  rapidApiKey:
   judge0ApiHost: judge0-ce.p.rapidapi.com
 
