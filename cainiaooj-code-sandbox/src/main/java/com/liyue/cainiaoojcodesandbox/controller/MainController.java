@@ -17,8 +17,8 @@ public class MainController {
 
     @Resource
     private SandboxManger sandboxManger;
-    private static final String AUTH_REQUEST_HEADER = "auth";
-    private static final String AUTH_REQUEST_KEY = "secretKey";
+    private static final String AUTH_REQUEST_HEADER = "";
+    private static final String AUTH_REQUEST_KEY = "";
     /**
      * 其实这样直接暴露接口到公网是不安全的
      * 我们提高接口的安全性有两种方法：

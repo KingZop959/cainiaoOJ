@@ -14,12 +14,12 @@ import org.apache.commons.lang3.StringUtils;
  * 远程代码沙箱-- 实际去调用的沙箱
  */
 public class RemoteCodeSandbox implements CodeSandbox {
-    private static final String AUTH_REQUEST_HEADER = "auth";
-    private static final String AUTH_REQUEST_KEY = "secretKey";
+    private static final String AUTH_REQUEST_HEADER = "";
+    private static final String AUTH_REQUEST_KEY = "";
     @Override
     public ExecuteCodeResponse executeCode(ExecuteCodeRequest executeCodeRequest) {
         System.out.println("远程代码沙箱");
-        String url = "http://47.109.24.92:8090/executeCode";
+        String url = "http://xxx.xxx.xxx.xxx:8090/executeCode";
         String jsonStr = JSONUtil.toJsonStr(executeCodeRequest);
         String responseStr = HttpUtil.createPost(url)
                 .header(AUTH_REQUEST_HEADER,AUTH_REQUEST_KEY)
