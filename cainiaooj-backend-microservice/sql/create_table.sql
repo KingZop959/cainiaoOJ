@@ -155,5 +155,4 @@ CREATE TABLE `question_submit_solution` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
-INSERT INTO ojSystem.`user` (userAccount,userPassword,unionId,mpOpenId,userName,userAvatar,userProfile,userRole,createTime,updateTime,isDelete) VALUES
-	 ('superroot','2e1bb9ce064bb3b89e6d04704da61a26',NULL,NULL,'root','https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%276Jyh56yU5bCP5paw5oOF5L6j5aS05YOPXzE3Mjg5NDgyODguMjQ1MjcyMg%3D%3D%27/0.png',NULL,'admin','2025-08-05 00:50:20','2025-08-05 16:36:44',0);
+
